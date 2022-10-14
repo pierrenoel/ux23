@@ -8,6 +8,18 @@ This is a project to create my own interpreted programming language. It is a wor
 
 The syntax of the language is defined by the following BNF:
 
+### Ressources : 
+- https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
+- https://xitog.github.io/dgx/informatique/bnf.html
+
+### Short example
+
+```
+<digit> ::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0
+<letter> ::= a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+<identifier> ::= <letter> | <digit> 
+```
+
 
 ## 1. Flex for lexical analysis
 
