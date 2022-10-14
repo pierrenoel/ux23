@@ -2,6 +2,8 @@
 
 This is a project to create my own interpreted programming language. It is a work in progress.
 
+![](https://perugini.cps.udayton.edu/teaching/books/SPUC/www/lecture_notes/images/lexyacccalc.png)
+
 ## 1. Flex for lexical analysis
 
 The first step is to create a lexer. The lexer is a program that reads the source code and splits it into tokens. The tokens are then passed to the parser.
