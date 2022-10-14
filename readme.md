@@ -4,14 +4,10 @@ This is a project to create my own interpreted programming language. It is a wor
 
 ![](https://perugini.cps.udayton.edu/teaching/books/SPUC/www/lecture_notes/images/lexyacccalc.png)
 
-## 00. BNF (Programming syntax)
+## 00. BNF (Programming syntax)
 
 The syntax of the language is defined by the following BNF:
 
-```
-name :: expression
-<expr> ::= <expr> + <expr>
-```
 
 ## 1. Flex for lexical analysis
 
