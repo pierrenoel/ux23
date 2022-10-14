@@ -2,7 +2,7 @@
     name = "Pierre"
 
     if( name == "Pierre" )
-        echo "Hello Pierre"
+        display "Hello Pierre"
     else
-        echo "Hello stranger"
+        display "Hello stranger"
 />
