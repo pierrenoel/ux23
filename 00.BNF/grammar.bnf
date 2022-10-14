@@ -1,6 +1,13 @@
-<number> ::= <digit> | <number> <digit>
-<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<instruction> ::= <affectation> | <display> 
 
-<variable> ::= variable <number> | variable <
-<statement> ::= <if-statement> | <while-statement>
-<if-statement> ::= "if" (<condition>) "else" <instruction>
+<affectation> ::= variable "=" (<expression>)
+<display> ::= "display" <expression>
+<expression> ::= <arithmetic> | <bool>
+<arithmetic> ::= variable <digit> | <addition> | <soustraction> | <multiplication> | <division> | "(" <arithmetic ")"
+<bool> ::= variable true | false
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<addition> ::= <arithmetic> "+" <arithmetic>
+<soustraction> ::= <arithmetic> "-" <arithmetic>
+<multiplication> ::= <arithmetic> "*" <arithmetic>
+<division> ::= <arithmetic> "/" <arithmetic>
+

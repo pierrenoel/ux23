@@ -1,5 +1,9 @@
 <u23
     name = "Pierre"
+    a = 3
+    b = 2 + 5 
+
+    display a
 
     if( name == "Pierre" )
         display "Hello Pierre"

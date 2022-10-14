@@ -9,8 +9,8 @@ fn {printf("The function in C \n");}
 [a-zA-Z] {printf("String: %s\n",yytext);}
 
 if {printf("The if condition\n");}
-else {printf("The else condition in C\n");}
-elseif {printf("The else if condition in C\n");}
+else {printf("The else condition\n");}
+elseif {printf("The else if condition\n");}
 
 [+] {printf("The addition operation\n");}
 [-] {printf("The negative operation\n");}
