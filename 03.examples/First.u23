@@ -1,0 +1,8 @@
+<u23
+    name = "Pierre"
+
+    if( name == "Pierre" )
+        echo "Hello Pierre"
+    else
+        echo "Hello stranger"
+/>

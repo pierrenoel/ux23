@@ -14,7 +14,7 @@ The syntax of the language is defined by the following BNF:
 
 ## My Grammar (BNF)
 
-[See my Grammar](00.BNF/grammar.md)
+[See the Grammar](00.BNF/grammar.bnf)
 
 ## 1. Flex for lexical analysis
 
