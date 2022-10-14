@@ -1,5 +1,6 @@
+#line 2 "lexique_u23.c"
 
-#line 3 "lex.yy.c"
+#line 4 "lexique_u23.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -449,11 +450,13 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lexer.l"
-#line 2 "lexer.l"
-    
-#line 456 "lex.yy.c"
-#line 457 "lex.yy.c"
+#line 1 "lexique_u23.lex"
+#line 2 "lexique_u23.lex"
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdbool.h>
+#line 459 "lexique_u23.c"
+#line 460 "lexique_u23.c"
 
 #define INITIAL 0
 
@@ -670,9 +673,9 @@ YY_DECL
 		}
 
 	{
-#line 5 "lexer.l"
+#line 7 "lexique_u23.lex"
 
-#line 676 "lex.yy.c"
+#line 679 "lexique_u23.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -731,65 +734,65 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "lexer.l"
+#line 8 "lexique_u23.lex"
 {printf("The function in C \n");}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 8 "lexer.l"
+#line 10 "lexique_u23.lex"
 {printf("Integer: %s\n", yytext);}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 9 "lexer.l"
+#line 11 "lexique_u23.lex"
 {printf("String: %s\n",yytext);}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 11 "lexer.l"
-{printf("The if condition in C\n");}
+#line 13 "lexique_u23.lex"
+{printf("The if condition\n");}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 12 "lexer.l"
-{printf("The else condition in C\n");}
+#line 14 "lexique_u23.lex"
+{printf("The else condition\n");}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 13 "lexer.l"
-{printf("The else if condition in C\n");}
+#line 15 "lexique_u23.lex"
+{printf("The else if condition\n");}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 15 "lexer.l"
+#line 17 "lexique_u23.lex"
 {printf("The addition operation\n");}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 16 "lexer.l"
+#line 18 "lexique_u23.lex"
 {printf("The negative operation\n");}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 17 "lexer.l"
+#line 19 "lexique_u23.lex"
 {printf("The symbol equals\n");}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 19 "lexer.l"
+#line 21 "lexique_u23.lex"
 {printf("Left parenthesis\n");}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 20 "lexer.l"
-{printf("Right parenthesis)\n");}
+#line 22 "lexique_u23.lex"
+{printf("Right parenthesis\n");}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 22 "lexer.l"
+#line 24 "lexique_u23.lex"
 ECHO;
 	YY_BREAK
-#line 793 "lex.yy.c"
+#line 796 "lexique_u23.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1794,7 +1797,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 22 "lexer.l"
+#line 24 "lexique_u23.lex"
 
 
 int main()

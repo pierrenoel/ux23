@@ -25,8 +25,11 @@ The lexer is created using Flex. Flex is a tool that creates a lexer from a set 
 The lexer is run by passing the source code file as an argument. The lexer then outputs the tokens to the standard output.
 
 ```bash
-$ flex lexer.l
-$ gcc lex.yy.c -o lexer
+$ flex -o lexique_u23.c lexique_u23.lex
+$ gcc -o lexique_simple lexique_simple.c
+$ gcc -o lexique_u23 lexique_u23.c
+$ touch first.u23
+$ ./lexique_u23 first.u23
 ```
 
 ## 2. Bison for parsing
