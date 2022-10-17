@@ -47,3 +47,9 @@ The parser is run by passing the tokens file as an argument. The parser then out
 $ bison -d parser.y
 $ gcc parser.tab.c -o parser
 ```
+
+Resources :
+- [https://www.gnu.org/software/bison/manual/html_node/Running.html](https://www.gnu.org/software/bison/manual/html_node/Running.html)
+- [https://www.gnu.org/software/bison/manual/html_node/Invoking-Bison.html](https://www.gnu.org/software/bison/manual/html_node/Invoking-Bison.html)
+
+- [Read this notes lex & yacc tuto](https://cse.iitkgp.ac.in/~bivasm/notes/LexAndYaccTutorial.pdf)
