@@ -41,7 +41,7 @@ In this example, we have two rules:
 
 - the second rule matches any number
 
-### 1.3. The third part
+## 1.3. The third part
 
 The third part is where you put all the actions.
 
