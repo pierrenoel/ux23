@@ -32,8 +32,8 @@ $ touch first.u23
 $ ./lexique_u23 first.u23
 ```
 
-[See the Flex file](01.Flex/lexique_u23.lex)
-[Read my quick notes about Flex](01.Flex/README.md)
+-[See the Flex file](01.Flex/lexique_u23.lex)
+-[Read my quick notes about Flex](flex.md)
 
 ## 2. Bison for parsing
 
