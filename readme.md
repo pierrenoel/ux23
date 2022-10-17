@@ -32,6 +32,9 @@ $ touch first.u23
 $ ./lexique_u23 first.u23
 ```
 
+[See the Flex file](01.Flex/lexique_u23.lex)
+[Read my quick notes about Flex](01.Flex/README.md)
+
 ## 2. Bison for parsing
 
 The second step is to create a parser. The parser is a program that reads the tokens and creates an abstract syntax tree (AST). The AST is then passed to the interpreter.
