@@ -53,3 +53,5 @@ Resources :
 - [https://www.gnu.org/software/bison/manual/html_node/Invoking-Bison.html](https://www.gnu.org/software/bison/manual/html_node/Invoking-Bison.html)
 
 - [Read this notes lex & yacc tuto](https://cse.iitkgp.ac.in/~bivasm/notes/LexAndYaccTutorial.pdf)
+
+- [Notes en français](https://www.enib.fr/~harrouet/Data/Courses/Flex_Bison.pdf)
